@@ -47,13 +47,7 @@ class Login extends Component{
    
   
    submitLogin(){
-        // const { data, loading, error } = useQuery(
-        //     getUserQuery,
-        //     { variables: { email : this.state.username,
-        //         password : this.state.password } }
-        //   );
-
-        //axios.post()
+        
         this.props.userLoginMutation({
             variables: {
                 email: this.state.username,
