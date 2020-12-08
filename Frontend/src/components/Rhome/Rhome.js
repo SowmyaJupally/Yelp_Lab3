@@ -16,7 +16,7 @@ class Rhome extends Component {
 
 
     }  
-    //get the books data from backend  
+   
     componentDidMount(){
         console.log(cookie.load("email"));
     }
