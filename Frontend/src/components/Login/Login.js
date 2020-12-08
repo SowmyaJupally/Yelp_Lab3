@@ -9,7 +9,7 @@ let redirectVar = null;
 
 
 
-//Define a Login Component
+//Login Component
 class Login extends Component{
     //call the constructor method
     constructor(props){
