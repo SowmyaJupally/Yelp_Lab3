@@ -1,8 +1,8 @@
 let mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 
-  const server = '127.0.0.1:27017'; // REPLACE WITH YOUR DB SERVER
-  const database = 'fcc-Mail';      // REPLACE WITH YOUR DB NAME
+  const server = '127.0.0.1:27017'; 
+  const database = 'fcc-Mail';     
   const connectionString='mongodb+srv://admin:6692259364@cluster0.maw7h.mongodb.net/YelpLab2?retryWrites=true&w=majority'
   class Database {
     constructor() {
