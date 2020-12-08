@@ -162,6 +162,7 @@ mutation placeOrder($email: String,$itemId:String,$quantity:Int, $price:Int) {
   }
 }
 `;
+
 export {
   addItemMutation,
   addSectionMutation,
