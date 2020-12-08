@@ -12,7 +12,7 @@ import Cprofile from './Cprofile/Cprofile';
 import Rupdateprofile from './Rupdateprofile/Rupdateprofile'
 import Cupdateprofile from './Cupdateprofile /Cupdateprofile'
 import Rmenu from './Rmenu/Rmenu';
-//import Cart from './Cart/Cart';
+
 
 //Create a Main Component
 class Main extends Component {
