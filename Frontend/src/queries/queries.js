@@ -11,6 +11,7 @@ let getUserQuery = gql`
   }
 `;
 
+
 const getRestaurantQuery = gql`
   query ViewRestaurant($email: String) {
     viewRestaurant(email: $email) {
