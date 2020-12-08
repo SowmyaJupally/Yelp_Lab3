@@ -23,7 +23,7 @@ class Rhome extends Component {
     
     render(){
       
-        //if not logged in go to login page
+        //if not login
         let redirectVar = null;
         if(localStorage.getItem('role')!="restaurant"){
             redirectVar = <Redirect to= "/rlogin"/>
